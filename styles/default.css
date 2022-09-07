@@ -60,3 +60,17 @@ main{
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 500px){
+    h1{
+        font-size: 48px;
+    }
+     p{
+        font-size: 24px;
+        text-align: justify;
+        text-indent: 50px;
+     }
+     main{
+        width: 80vw;
+     }
+}
